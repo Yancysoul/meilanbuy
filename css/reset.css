@@ -1,0 +1,45 @@
+body,div,p,ul,li,button{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font:12px 宋体;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img,input{
+	border: 0 none;
+	display: block;
+}
+input{
+	outline-style: none;
+}
+
+a{
+	color:#000;
+	text-decoration: none;
+}
+
+ul,li{
+	list-style: none;
+}
+.clearfix:after{
+	display: block;
+	content: ".";
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+/*顶部导航*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
